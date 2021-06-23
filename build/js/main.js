@@ -15,7 +15,7 @@
   \***************************/
 /***/ (() => {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (1:10)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> html,body {\\n|   background: purple;\\n| }\");\n\n//# sourceURL=webpack://tw-webpack/./src/css/index.css?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack://tw-webpack/./src/css/index.css?");
 
 /***/ }),
 
@@ -26,17 +26,7 @@ eval("throw new Error(\"Module parse failed: Unexpected token (1:10)\\nYou may n
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _js_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/index.js */ \"./src/js/index.js\");\n/* harmony import */ var _js_index_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_js_index_js__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconsole.log('index', (_js_index_js__WEBPACK_IMPORTED_MODULE_1___default()));\n\n//# sourceURL=webpack://tw-webpack/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/js/index.js":
-/*!*************************!*\
-  !*** ./src/js/index.js ***!
-  \*************************/
-/***/ (() => {
-
-eval("console.log('hello webpack')\n\n//# sourceURL=webpack://tw-webpack/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_0__);\n\n// import index from './js/index.js'\n// console.log('index', index);\n\n//# sourceURL=webpack://tw-webpack/./src/index.js?");
 
 /***/ })
 
