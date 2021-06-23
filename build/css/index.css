@@ -10,6 +10,6 @@ img {
 .outer {
   width: 200px;
   height: 200px;
-  background: url(img/header_pre.7ac086ee35.png) no-repeat center/cover;
+  background: url(../img/header_pre.png) no-repeat center/cover;
 }
 

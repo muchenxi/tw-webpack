@@ -6,6 +6,7 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
+    publicPath:"../",
     filename: 'js/main.js',
     path: path.join(__dirname, '../build')
   },
@@ -40,7 +41,7 @@ module.exports = {
               // url-loader 依赖于 file-loader
               loader: 'url-loader',
               options: {
-                // 关闭es6模块
+                // 关闭es6模块使用commonjs,url-loader默认使用es6
                 esModule: false,
                 limit: 8 * 1024,
                 name: function(file) {
@@ -61,7 +62,12 @@ module.exports = {
       // 处理html中img资源
         {
           test: /\.html$/,
-          loader: 'html-loader'
+          loader: 'html-loader',
+          options: {
+            // 关闭es6模块
+            esModule: false,
+            minimize: true
+          }
       }
     ]
   },
